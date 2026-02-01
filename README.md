@@ -1,3 +1,10 @@
+## Enhancements Added
+
+- Responsive USWDS navigation
+- Improved accessibility with ARIA labels
+- Enhanced contact form UX
+- Mobile-friendly layout
+
 ## License
 
 This project is licensed under the **MIT License**.
