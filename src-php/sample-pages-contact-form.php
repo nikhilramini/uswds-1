@@ -41,41 +41,21 @@
                                 Please fill out all required field and we will get back to you within 48 business hours
                             </p>
 
-                            <form class="usa-form maxw-full">
-                                <fieldset class="usa-fieldset">
-                                    <label class="usa-label" for="given-name">First Name:</label>
-                                    <input
-                                        class="usa-input"
-                                        id="given-name"
-                                        name="first-name"
-                                        aria-describedby="gnHint" />
-                                    <label class="usa-label" for="family-name">Last Name:</label>
-                                    <input
-                                        class="usa-input"
-                                        id="family-name"
-                                        name="last-name"
-                                        aria-describedby="lnHint" />
-                                    <label class="usa-label" for="family-name">Email (Required):</label>
-                                    <input
-                                        class="usa-input"
-                                        id="family-name"
-                                        name="last-name"
-                                        aria-describedby="lnHint"
-                                        required />
-                                    <label class="usa-label" for="family-name">Subject (Required):</label>
-                                    <input
-                                        class="usa-input"
-                                        id="family-name"
-                                        name="last-name"
-                                        aria-describedby="lnHint"
-                                        required />
-                                    <label class="usa-label" for="input-type-textarea">Inquiry (Required):</label>
-                                    <textarea
-                                        class="usa-textarea"
-                                        id="input-type-textarea"
-                                        name="input-type-textarea"></textarea>
-                                    <input class="usa-button margin-0" type="submit" value="Submit" />
-                                </fieldset>
+                            <form class="usa-form">
+                              <fieldset class="usa-fieldset">
+                                <legend class="usa-legend">Contact Us</legend>
+                            
+                                <label class="usa-label" for="name">Name</label>
+                                <input class="usa-input" id="name" name="name" type="text" required>
+                            
+                                <label class="usa-label" for="email">Email</label>
+                                <input class="usa-input" id="email" name="email" type="email" required>
+                            
+                                <label class="usa-label" for="message">Message</label>
+                                <textarea class="usa-textarea" id="message" name="message" rows="4"></textarea>
+                            
+                                <button class="usa-button" aria-label="Send contact form">Send</button>
+                              </fieldset>
                             </form>
                         </div>
                     </div>
